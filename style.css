@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'Inria Serif', serif;
+}
+
+#ti {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#ti h1 {
+    color: #CA7272;
+    font-size: 24px;
+    letter-spacing: 0.13em;
+}
+
+#ti a {
+    text-decoration: none;
+    color: #CA7272;
+}
+
+#ti h2 {
+    color: #3f3f3f;
+    font-size: 10px;
+    letter-spacing: 0.13em;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+nav, ul,li {
+    display: inline;
+}
+
+nav ul {
+    position: absolute;
+    top: 35px;
+    left: 260px;
+    font-size: 22px;
+    letter-spacing: 0.33em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #535353;
+}
+
+ button{
+  background-color: transparent;  
+  position: absolute;
+  top: 30px;
+  left: 1300px;
+  border: 0;
+}
+
+.wel img {
+    max-width: 830px;
+    max-height: 500px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+.welcap {
+    width: 320px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    left: 900px;
+}
+
+.welcap hr {
+    width: 318px;
+    height: 0;
+    border: 0.5px solid #f6f6f6;
+    margin: 20px 0;
+}
+
+.welcap h1 {
+    color: #CA7272;
+}
+
+.welcap h1,h2 {
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin: 10px;
+}
+
+.welcap p {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+
+.infop {
+    width: 1200px;
+    height: 1200px;
+    margin: 20px;
+    padding: 25px;
+    position: absolute;
+    top: 100px;
+}
+
+.if {
+    width: 1100px;
+    height: 400px;
+
+}
+.ift {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+
+}
+
+.ift h1 {
+    letter-spacing: 0.13em;
+    margin: 20px;
+    color: #56706B;
+}
+
+.ift p{
+    line-height: 2em;
+    font-size: 14px;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.if h1 {
+    letter-spacing: 0.13em;
+    font-size: 36px;
+}
+
+.if h1,p {
+    text-align: center;
+}
+
+.ifi #a{
+    display: inline;
+    position: relative;
+    left: 750px;
+    top: 0px;
+}
+
+.ifi {
+    width: 450px;
+    display: inline;
+}
+
+.if img{
+    height: 450px;
+    width: 450px;
+}
+
+
+
+#dif {
+    height: 0px;
+    position: relative;
+    top: 150px;
+    width: 900px;
+    border: 0.5px solid #f6f6f6;
+    margin: auto;
+}
+
+.ifi #b {
+    position: relative;
+    left: 100px;
+    top: 250px;
+    display: inline;
+}
+
+
+.sec {
+    position: relative;
+    top: -200px;
+    left: 800px;
+}
+
+.fa {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: 200px;
+}
+
+.form h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #CA7272;
+    margin: 0 0 10px 0;
+}
+
+.form hr {
+    width: 200px;
+    border: 1px solid #f6f6f6;
+    margin: auto;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+form button {
+    position: relative;
+    left: 0;
+}
+
+.form #name {
+    width: 160px;
+    height: 0px;
+    display: block;
+}
+
+.form #email {
+    width: 160px;
+    height: 0px;
+    display: block;
+}
+
+.form #msg {
+    width: 460px;
+    height: 110px;
+    display: block;
+}
+
+.form input {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form p {
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+}
+
+.form button {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #56706B;
+    color: #ffffff;
+    font-weight: 200;
+    position: relative;
+    left: 200px;
+}
+
+.opt img {
+    width: 170px;
+    height: 170px;
+    background-color: #CA7272;
+    border: 20px solid #CA7272;
+    border-radius: 100px;
+}
+
+.opt button {
+    width: 350px;
+    margin: 0 15px;
+}
+
+.opt {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    margin: auto;
+}
+
+#src {
+    position: relative;
+width: 300px;
+height: 30px;
+top: 120px;
+left: 225px;
+background: #F8F8F8;
+border: 1px solid #DCD0D0;
+box-sizing: border-box;
+border-radius: 5px;
+text-align: center;
+font-family: 'Quicksand';
+
+}
+
+#srcl {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    left: 0px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.lbl {
+    width: 800px;
+    position: relative;
+    top: 60px;
+    margin: auto;
+}
+
+ .p {
+    display: inline-block;
+    margin: 15px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+}
+
+.lbl p {
+    display: inline;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#spt {
+position: absolute;
+width: 0px;
+height: 200px;
+left: 375px;
+top: 50px;
+
+border: 1px solid #F0F0F0;
+}
+
+svg {
+    color: white;
+}
+
+.cat {
+    width: 480px;
+    height: 400px;
+    display: inline;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
+
+.cat-item {
+    height: 250px;
+    width: 225px;
+    background-color: #f4f4f4;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px 10px 0 10px;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+
+}
+
+.cat-item a{
+    text-decoration: none;
+    color: #56706B;
+    text-transform: uppercase;
+}
+
+.cat-item h1 {
+    position: relative;
+    top: 10px;
+}
+
+.cat-item img {
+    max-width: 175px;
+    max-height: 175px;
+}
+
+.catd {
+position: relative;
+
+
+}
+ #pies {
+    width: 900px;
+    font-size: 16px;
+    font-family: "quicksand" ,sans-serif;
+    background-color: #56706B;
+    margin: auto;   
+    position: relative;
+    top: 800px;
+    padding: 50px;
+    color: #ffffff;
+}
+
+#cakes {
+    position: relative;
+    top: 600px;
+    width: 900px;
+    font-size: 16px;
+    font-family: "quicksand" ,sans-serif;
+    background-color: #56706B;
+    margin: auto;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.catd li {
+    display: block;
+    line-height: 100px;
+}
+
+.catd p {
+    display: block;
+    line-height: 100px;
+}
+
+.con {
+    height: 2000px;
+}
+
+#mn {
+    position: relative;
+    top: 160px;
+    width: 160px;
+    margin: auto;
+    color: #56706B;
+}
